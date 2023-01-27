@@ -1,6 +1,6 @@
 Gem::Specification.new do |spec|
   spec.name = "have_query_count"
-  spec.version = "0.1.0"
+  spec.version = "0.2.0"
   spec.summary = "rspec query count matcher"
   spec.description = "how many queries did you run? this will tell u"
   spec.authors = Array("Violet Graves")
