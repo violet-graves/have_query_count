@@ -1,6 +1,7 @@
 # frozen_string_literal: true
 
 require "active_support"
+require "rspec/expectations"
 
 require "have_query_count/query_counter"
 

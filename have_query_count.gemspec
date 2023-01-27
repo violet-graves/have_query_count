@@ -1,11 +1,12 @@
 Gem::Specification.new do |spec|
   spec.name = "have_query_count"
-  spec.version = "0.2.0"
+  spec.version = "0.3.0"
   spec.summary = "rspec query count matcher"
   spec.description = "how many queries did you run? this will tell u"
   spec.authors = Array("Violet Graves")
   spec.homepage = "https://rubygems.org/gems/have_query_count"
   spec.license = "MIT"
+  spec.files = Dir['lib/**/*.rb']
 
   spec.add_dependency "rspec"
   spec.add_dependency "activerecord"
